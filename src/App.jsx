@@ -1,23 +1,14 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
+import Counter from './Components/Counter';
 
-function App() {
-  const [likes, setLikes] = useState(0)
+export default function App(){
+  const [] = useState(0)
 
-  function increment(){
-    setLikes(likes + 1)
-  }
-
-  function decrement(){
-    setLikes(likes - 1)
-  }
-
-  return (
-    <div className="App">
-      <h1>{likes}</h1>
-      <button onClick={increment}>Лайк</button>
-      <button onClick={decrement}>Дизлайк</button>
+  return(
+    <div className='App'>
+      <Counter/>
+      <Counter/>
+      <Counter/>
     </div>
-  );
+  )
 }
-
-export default App;
