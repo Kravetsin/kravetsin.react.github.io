@@ -12,7 +12,7 @@ const Counter = function(){
   }
 
   return(
-    <div>
+    <div className="col">
       <h1>{count}</h1>
       <button onClick={increment}>Like</button>
       <button onClick={decrement}>Dislike</button>

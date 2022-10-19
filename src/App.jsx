@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import Counter from './Components/Counter';
+import CoolButton from './Components/First';
 
 export default function App(){
   const [] = useState(0)
 
   return(
-    <div className='App'>
+    <div>
       <Counter/>
-      <Counter/>
-      <Counter/>
+      <CoolButton/>
     </div>
   )
 }
