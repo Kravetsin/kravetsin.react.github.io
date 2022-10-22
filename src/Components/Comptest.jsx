@@ -38,4 +38,3 @@ export default class Comptest extends Component{
         }
     }
 }
-Comptest.defaultProps = {name: "Ihor"}
