@@ -1,8 +1,15 @@
-export default function CoolButton(){
-    return(
-        <div className="col">
-            <img src="/img/pngegg.png" alt="" />
-            <button>Cool</button>
-        </div>
-    );
+import React from "react";
+
+class Header extends React.Component {
+    render(){
+        return(
+            <header className="header">{this.props.title}</header>
+        )
+        
+    }
+
+    inputClick(){console.log("Clicked")}
+    mouseClick(){console.log('Mouse over')}
 }
+
+export default Header;

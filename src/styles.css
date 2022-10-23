@@ -8,7 +8,8 @@ html{
 }
 
 body{
-    background-color: rgb(78, 78, 115);
+    background-color: #333;
+    color: #fff;
     max-height: 100vh;
 }
 
@@ -59,4 +60,12 @@ img{
 .col button:hover{
     background: rgba(0,0,0,0.2);
     cursor: pointer;
+}
+
+.header{
+    background-color: #000;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Current;
 }
